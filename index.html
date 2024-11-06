@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de Layout</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+    <!-- Questão 1: Layout de Cabeçalho com CSS Grid -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo de Astrologia" class="logo-img">
+        </div>
+        <h1 class="title">Astrologia</h1>
+        <nav class="nav">
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Questão 2: Organizar Cartões de Produtos com Flexbox do Bootstrap -->
+    <div class="container d-flex justify-content-around flex-wrap">
+        <div class="card" style="width: 18rem;">
+            <img src="./Mapa-Astral-1024x1024.png" class="card-img-top" alt="Produto 1">
+            <div class="card-body">
+                <h5 class="card-title">Mapa Astral</h5>
+                <p class="card-text">O Mapa Astral é uma ferramenta única e personalizada para quem deseja explorar seu próprio universo interior através da astrologia.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./revSolar.png" class="card-img-top" alt="Produto 2">
+            <div class="card-body">
+                <h5 class="card-title">Revolução Solar</h5>
+                <p class="card-text">A Revolução Solar é uma ferramenta poderosa para quem deseja entender os aspectos astrológicos mais importantes para o próximo ano de sua vida, com base na sua carta natal.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./sinastria.png" class="card-img-top" alt="Produto 3">
+            <div class="card-body">
+                <h5 class="card-title">Sinastria Amorosa</h5>
+                <p class="card-text">A Sinastria Amorosa é uma leitura astrológica que explora a compatibilidade e as dinâmicas de relacionamento entre duas pessoas, revelando como os astros influenciam a conexão entre elas.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Questão 3: Alinhar Divs com CSS Grid -->
+    <div class="grid-container">
+        <div class="box">Caixa 1</div>
+        <div class="box">Caixa 2</div>
+        <div class="box">Caixa 3</div>
+        <div class="box">Caixa 4</div>
+    </div>
+
+    <!-- Questão 4: Layout Responsivo com Flexbox do Bootstrap -->
+    <div class="container d-flex flex-column flex-md-row align-items-center">
+        <img src="/logo.png" alt="Imagem" class="img-fluid">
+        <div class="texto">
+            <h2>Sobre Nós</h2>
+            <p>Descubra os mistérios do cosmos com a nossa empresa de Astrologia!</p>
+        </div>
+    </div>
+
+    <!-- Questão 5: Grid com Espaçamento e Alinhamento de Itens -->
+    <div class="grid-container-3">
+        <div class="box-3">Item 1</div>
+        <div class="box-3">Item 2</div>
+        <div class="box-3">Item 3</div>
+    </div>
+
+</body>
+</html>
